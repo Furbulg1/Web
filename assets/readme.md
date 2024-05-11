@@ -1,0 +1,5 @@
+Estances_de_la_Casa_Gassia.usdz
+estances_de_la_casa_gassia._ecomuseu_valls_aneu.glb
+Resto_ni_Teo.usdz
+resto_ni_teo.glb
+spanish_villa__spanish_house_hacienda_lrg_v1.glb
