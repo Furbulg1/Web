@@ -4,6 +4,7 @@
 <html>
 	<head>
 		<script src="aframe/aframe.min.js"></script>
+		<script src="aframe/aframe-extras.min.js"></script>
 	</head>
 	<body>
 <a-scene stats webxr>
@@ -21,6 +22,14 @@
         src="https://raw.githubusercontent.com/aframevr/assets/master/test-models/models/glTF-2.0/brainstem/BrainStem.gltf"></a-asset-item>
     </a-assets>
     <a-sky color="grey"></a-sky>
+
+	      <a-entity id="rig" movement-controls="fly: true" position="0 0 2">
+		<a-entity id="camera"
+		          camera
+		          position="0 1.6 0"
+		          look-controls="pointerLockEnabled: true"></a-entity>
+	      </a-entity>
+    
     <a-torus position="-2 1 -5" color="green" radius="1.2" animation="property: components.material.material.color; type: color; from: green; to: red; loop: true; dur: 10000"></a-torus>
     <a-plane src="#canestra" width="7" height="7" rotation="-55 0 0" position="-2 -2 -5" color="purple"></a-plane>
     <a-cylinder color="yellow" height="2" radius="0.05" position="-2 -1 -5"></a-cylinder>
