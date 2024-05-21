@@ -9,7 +9,7 @@
 	<body>
 	<a-scene>
 	    <a-assets>
-	        <a-asset-item id="navmesh" src="assets/estances_navmesh.glb"></a-asset-item>
+	        <a-asset-item id="navmesh" src="assets/navmesh_Starodavnya_hatina.glb"></a-asset-item>
 		<a-asset-item id="casaglb" src="assets/estances_de_la_casa_gassia._ecomuseu_valls_aneu.glb"></a-asset-item>
 	    <!--
 		<a-asset-item id="casausdz" src="assets/Estances_de_la_Casa_Gassia.usdz"></a-asset-item>
@@ -30,8 +30,8 @@
      		<!-- Nav mesh. -->
       	    <a-entity nav-mesh
                 normal-material
-                visible="false"
-                position="-3 9.5 -8"
+                visible="true"
+                position="-1.50 0.25 -5"
                 gltf-model="#navmesh"></a-entity>
 	    <a-gltf-model src="#casaglb" position="-3 9.5 -8"></a-gltf-model>
 	    <!--
@@ -42,4 +42,3 @@
 	</a-scene>
 	</body>
 <html>
-
